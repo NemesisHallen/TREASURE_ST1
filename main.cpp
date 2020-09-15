@@ -17,7 +17,7 @@ void display(void)
 		0.0, 0.0, 0.0,           //at(x,y,z)
 		0.0, 1.0, 0.0);          //up (x,y,z)
    glScalef (1.0, 1.0, 1.0);      
-   //glutWireTorus(0.5, 1.0, 20, 20);
+   //glutWireTorus(1.0, 1.0, 20, 20);
    glFlush ();
     glutSwapBuffers();
 }
